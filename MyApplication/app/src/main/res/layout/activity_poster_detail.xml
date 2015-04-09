@@ -1,0 +1,176 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="202dp"
+            android:src="@drawable/img_poster"/>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp" >
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="fill_parent"
+                android:text="Mad Men"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"/>
+
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/heart_512"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+       <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="50dp">
+           <ImageButton
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:layout_weight=".25"
+               android:background="#000"/>
+           <ImageButton
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:layout_weight=".25"
+               android:background="#DDD"/>
+           <ImageButton
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:layout_weight=".25"
+               android:background="#AAA"/>
+           <ImageButton
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:layout_weight=".25"
+               android:background="#CCC"/>
+           </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_alignParentLeft="true">
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+
+                    android:text="Movie Type:"/>
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Drama"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentRight="true">
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+
+                    android:text="Duration:"/>
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="90"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_alignParentLeft="true">
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+
+                    android:text="Year:"/>
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2014"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentRight="true">
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+
+                    android:text="Channel:"/>
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HBO"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_alignParentLeft="true">
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+
+                    android:text="Season:"/>
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentRight="true">
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+
+                    android:text="Episode:"/>
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5"/>
+            </LinearLayout>
+        </RelativeLayout>
+        
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp" android:background="#DDD"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Theory Number 3: Gandalf, being older than the oldest hobbit’s great-grandfather’s grandfather, is getting rather senile. Every journey he takes is unexpected.
+See, here’s the thing: a movie poster needs to express one thing, and one thing alone: conflict. Theory Number 3: Gandalf, being older than the oldest hobbit’s great-grandfather’s grandfather, is getting rather senile. Every journey he takes is unexpected.
+See, here’s the thing: a movie poster needs to express one thing, and one thing alone: conflict.
+Theory Number 3: Gandalf, being older than the oldest hobbit’s great-grandfather’s grandfather, is getting rather senile. Every journey he takes is unexpected.
+
+See, here’s the thing: a movie poster needs to express one thing, and one thing alone: conflict."/>
+
+    </LinearLayout>
+
+</ScrollView>

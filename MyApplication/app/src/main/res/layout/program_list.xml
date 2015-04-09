@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_gravity="center"
+        android:layout_width="175dp"
+        android:layout_height="102dp"
+        android:src="@drawable/img_poster" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="37dp"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="5dp"
+        android:background="#80000000">
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_gravity="bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_gravity="bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#FFF"
+            android:text="04/08: 17:00 - 18:00" />
+
+        </LinearLayout>
+
+
+</FrameLayout>
